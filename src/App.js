@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 import Todo from './todoFrom';
+import Style from './style';
+import Box from './box';
 
 class App extends Component {
   render() {
@@ -13,6 +15,10 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <Todo></Todo>
+        <div>
+            <Style></Style>
+            <Box></Box>
+        </div>
       </div>
     );
   }
