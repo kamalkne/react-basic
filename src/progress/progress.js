@@ -14,9 +14,6 @@ class Progress extends Component {
             progress: event.target.value
         })
     }
-    forceUpdate = () => {
-        alert('Me updateing');
-    };
     
     render() {
         return(
@@ -24,7 +21,7 @@ class Progress extends Component {
                 <input type="range" defaultValue={this.state.progress} min="0" max="100"
             onChange={this.setValue}/>
                 <ProgressBar val={this.state.progress}></ProgressBar>
-                <button onClick={forceUpdate()}>Update</button>
+                <button>Update</button>
             </div>
         )
     }
