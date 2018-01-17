@@ -5,6 +5,8 @@ import './App.css';
 import Todo from './todoFrom';
 import Style from './style';
 import Box from './box';
+import DashedB from './module/module';
+import Progress from './progress/progress';
 
 class App extends Component {
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
         <div>
             <Style></Style>
             <Box></Box>
+            <DashedB></DashedB>
+            <Progress></Progress>
         </div>
       </div>
     );
